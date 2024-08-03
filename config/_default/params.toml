@@ -1,0 +1,85 @@
+# Pages placed under these sections will be shown on homepage and archive page.
+mainSections = ["post"]
+# Output page's full content in RSS.
+rssFullContent = true
+favicon = "/favicon.ico"
+
+[footer]
+since = 2020
+customText = "好想養貓阿~~"
+
+[dateFormat]
+published = "2006/01/02"
+lastUpdated = "2006/01/02 15:04 Asia/Taipei"
+
+[sidebar]
+emoji = "💤"
+subtitle = "成大物理系大三"
+
+[sidebar.avatar]
+enabled = true
+local = true
+src = "img/avatar.png"
+
+[article]
+headingAnchor = true
+math = true
+readingTime = true
+
+[article.license]
+enabled = true
+default = "Licensed under CC BY-NC-SA 4.0"
+
+## Widgets
+[[widgets.homepage]]
+type = "search"
+
+[[widgets.homepage]]
+type = "archives"
+
+[widgets.homepage.params]
+limit = 5
+
+[[widgets.homepage]]
+type = "categories"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.homepage]]
+type = "tag-cloud"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.page]]
+type = "toc"
+
+[opengraph.twitter]
+site = "simbafs"
+card = "summary_large_image"
+
+[defaultImage.opengraph]
+enabled = false
+local = false
+src = ""
+
+[colorScheme]
+toggle = true
+default = "auto"
+
+[imageProcessing.cover]
+enabled = true
+
+[imageProcessing.content]
+enabled = true
+
+## Comments
+[comments]
+enabled = false
+provider = "remark42"
+
+[comments.remark42]
+host = ""
+site = ""
+locale = ""
